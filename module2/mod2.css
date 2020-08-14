@@ -1,0 +1,80 @@
+* {box-sizing: border-box;margin: 0px; padding: 0px;}
+
+h1 {text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: helvetica;
+    color: white;
+   }
+
+.row { width: 100%; }    
+
+div {
+  	background-color:grey;
+  	height: 200px;
+  	margin: 40px;
+	border: 3px solid black;
+	overflow: hidden;
+}
+p {float: right;}
+
+p.title {width: 100px;
+         text-align: center;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         border: solid black;
+         margin: 0px;
+         border-top: 3px;
+         border-right: 3px;}
+
+#title1 {background-color: maroon;
+	     color: white;}
+
+#title2 {background-color: purple;
+         color: white;}
+
+#title3 {background-color: green;
+         color: white;}         
+
+p.content {clear: right;
+           padding:15px;}
+
+@media (min-width: 992px) {
+	.s1, .s2, .s3 {
+		float: left;
+		width: 33.33%;
+	}
+	#d1 {
+		margin-right: 15px;
+	}
+	#d2 {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	#d3 {
+		margin-left: 15px;
+	}
+}          
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.s1, .s2 {
+		float: left;
+		width: 50%;
+	}
+	.s3 {
+		float: left;
+	}
+	#d1 {
+		margin-right: 15px;
+	}
+	#d2 {
+		margin-left: 15px;
+	}
+	#d3 {
+		margin-top: 0px;
+	}
+}
+
+body {background-image: url(C:/Users/Thandar/Downloads/menu.jpg);
+background-attachment: fixed; background-repeat: no-repeat; background-size:cover;}}
