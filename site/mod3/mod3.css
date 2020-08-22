@@ -1,0 +1,45 @@
+body {background-color: white;
+	  color: black;
+      }
+
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 3px solid black;
+	
+}
+h1 {color: black;
+    text-decoration: none;
+    font-family: 'Lobster', cursive; }
+
+#nav-list {margin-top: 10px;
+           text-align: center;}
+
+#nav-list a {color: black;
+             font-weight: bold;
+            }    
+#nav-list a:hover { background: #E7E7E7; }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	 border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+h2{text-align: center;
+   margin-top: 15px;
+   margin-bottom: 20px;
+  }
+
+p.title {text-align: center;
+         font-size: 17px;
+         font-weight:bold; }
+
+section.container { background-color: grey; width: 100%; }
+
+p.content {padding: 5px;
+           font-size: 17px;
+           font-weight: bold;
+           margin-bottom: 5px;}
