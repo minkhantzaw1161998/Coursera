@@ -13,17 +13,17 @@ h1 {color: black;
     font-family: 'Lobster', cursive; }
 
 #nav-list {margin-top: 10px;
-           text-align: center;}
+           text-align: center;
+         }
 
 #nav-list a {color: black;
              font-weight: bold;
             }    
 #nav-list a:hover { background: #E7E7E7; }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar {
 	 border: 2px solid black;
 }
-
 .navbar-header button.navbar-toggle {
 	clear: both;
 	margin-top: -30px;
